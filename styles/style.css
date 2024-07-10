@@ -185,4 +185,30 @@ cursor: pointer;
         margin-top: 48px;
         padding: 32px;
     }
+
+    .my-target-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 48px;
+        padding: 32px;
+
+    }
+    .my-target-section1 .my-target-section2 .my-target-section3{
+        width: 364px;
+        height: 300px;
+    }
+    .my-target-section1 {
+        background-color: rgba(255, 76, 30, 0.05);
+    }
+    .my-target-section2 {
+        background-color: rgba(0, 76, 232, 0.05);
+    }
+    .my-target-section3 {
+        rgba(255, 223, 0, 0.05)
+    }
+
+    .support-section {
+        background-image: url();
+    }
 /* Main section end here */
