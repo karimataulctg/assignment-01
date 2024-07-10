@@ -4,7 +4,7 @@
     /* margin: 0; */
     /* padding: 0; */
     /* box-sizing: border-box; */
-    font-family: 'Azeret Mono', monospace;
+    font-family: 'Azeret Mono';
 }
 
 nav {
@@ -12,7 +12,7 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 1000px;
-        
+         
 }
 .title-nav {
     border: 2px solid black;
@@ -32,9 +32,6 @@ nav {
     margin-top: 38px;
     cursor:pointer;
     
-
-
-
 }
 /* Header starts */
 
@@ -43,11 +40,13 @@ nav {
     border: 2px solid black;
     display: flex;
     flex-direction: column;
+    background-repeat: no-repeat; 
+    background-position: center;
+     background-size: cover; 
     width: 100%;
-    height: 652px;
     align-items: center;
     padding: 0px;
-    margin: 0px;
+    margin: 0px; 
    
     
 }
@@ -178,5 +177,12 @@ cursor: pointer;
     justify-content: space-between;
     width: 946px;
     height: 336px;
+    }
+
+    .section-youtube {
+        display: flex;
+        justify-content: center;
+        margin-top: 48px;
+        padding: 32px;
     }
 /* Main section end here */
