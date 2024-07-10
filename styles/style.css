@@ -15,7 +15,7 @@ nav {
          
 }
 .title-nav {
-    border: 2px solid black;
+    
     font-size: 28px;
     font-weight: 800;
 }
@@ -37,28 +37,28 @@ nav {
 
 .header-main {
     background-image: url('../images/Hero-bg.png');
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1440px;
     align-items: center;
     padding: 0px;
-    margin: 0px; 
+    margin: 0 auto; 
    
     
 }
 .header-image{  
-    border: 2px solid black;
+    
     margin-top: 26px;
     align-items: center;
    padding-top: 0px;
     }
 
 .header-title{
-       border: 2px solid black;
+    
   padding-top: 0px;
   padding-bottom: 0px;
   margin-bottom: 0px;
@@ -71,7 +71,7 @@ font-weight: 800;
 }
 
 .header-description {
-    border: 2px solid black;
+    
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
@@ -85,7 +85,7 @@ opacity: 0.7;
 
 .header-btn
  button {
-border: 2px solid black;
+
 border-radius: 8px;
 background: rgb(13, 19, 33);
 width: 208px;
@@ -102,19 +102,16 @@ cursor: pointer;
 /* Main section starts here */
 
 .section-main {
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 1140px;
-    /* height: 1395px; */
     padding: 80px 97px;
     
     margin: 0 auto;
 }
 
 .section-main1 {
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,7 +132,6 @@ cursor: pointer;
 }
 
 .section-main2 {
-    border: 2px solid black;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -163,14 +159,12 @@ cursor: pointer;
         font-weight: 600;
         width: 150px;
         height: 48px;
-        border: 1px solid black;
         opacity: 0.8;
         margin-bottom: 20px;
         margin-top: 38px;
         cursor:pointer;
     }
     .section-main3 {
-        border: 2px solid black;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -192,11 +186,21 @@ cursor: pointer;
         justify-content: center;
         margin-top: 48px;
         padding: 32px;
+        width: 1140px;
+        /* height: 463px; */
+        margin: 0 auto;
+        gap: 20px;
 
     }
     .my-target-section1 .my-target-section2 .my-target-section3{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         width: 364px;
         height: 300px;
+        padding: 0;
+        margin: 0 auto;
+        text-align: justify;
     }
     .my-target-section1 {
         background-color: rgba(255, 76, 30, 0.05);
@@ -205,7 +209,7 @@ cursor: pointer;
         background-color: rgba(0, 76, 232, 0.05);
     }
     .my-target-section3 {
-        rgba(255, 223, 0, 0.05)
+       background-color: rgba(255, 223, 0, 0.05)
     }
 
     .support-section {
@@ -250,7 +254,6 @@ cursor: pointer;
     .input-section {
         width: 548px;
         height: 57px;
-        border: 1px solid rgba(13, 19, 33, 0.15);
         border-radius: 8px;
         background: rgb(255, 255, 255);
     }
