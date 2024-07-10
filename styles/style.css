@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+    font-family: 'Azeret Mono', monospace;
+}
 
 nav {
     display: flex;
@@ -24,6 +30,7 @@ nav {
     opacity: 0.8;
     margin-bottom: 20px;
     margin-top: 38px;
+    cursor:pointer;
     
 
 
@@ -73,6 +80,8 @@ font-weight: 400;
 width: 852px;
 text-align: center;
 padding-bottom: 10px;
+opacity: 0.7;
+
 }
 
 .header-btn
@@ -87,5 +96,87 @@ font-family: Azeret Mono;
 font-size: 18px;
 font-weight: 600;
 margin-bottom: 44px;
+cursor: pointer;
 }
 /* Header closed */
+
+/* Main section starts here */
+
+.section-main {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1140px;
+    /* height: 1395px; */
+    padding: 80px 97px;
+    
+    margin: 0 auto;
+}
+
+.section-main1 {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.section-main-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+
+}
+.section-main-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    opacity: 0.7;    
+}
+
+.section-main2 {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 946px;
+    height: 336px;
+    }
+
+    .section-main2-title {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .section-main2-description {
+        font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    text-align: left
+    opacity: 0.7;   
+    }
+    
+    .btn-learn-more {
+        background: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: 600;
+        width: 150px;
+        height: 48px;
+        border: 1px solid black;
+        opacity: 0.8;
+        margin-bottom: 20px;
+        margin-top: 38px;
+        cursor:pointer;
+    }
+    .section-main3 {
+        border: 2px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 946px;
+    height: 336px;
+    }
+/* Main section end here */
