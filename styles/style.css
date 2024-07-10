@@ -36,7 +36,7 @@ nav {
 /* Header starts */
 
 .header-main {
-    background-image: url('../images/Hero-bg.png');
+    background-image: url('/images/Hero-bg.png');
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -183,7 +183,7 @@ cursor: pointer;
     .my-target-section {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
         margin-top: 48px;
         padding: 32px;
         width: 1140px;
@@ -213,7 +213,7 @@ cursor: pointer;
     }
 
     .support-section {
-        background-image: url('../images/Handshake.jpg');
+        background-image: url('/images/handshake.jpg');
         background-size: cover; 
         background-position: center;
         background-repeat: no-repeat;
